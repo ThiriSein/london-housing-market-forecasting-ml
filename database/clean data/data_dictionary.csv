@@ -1,0 +1,15 @@
+Column,Data Type,Description
+date,datetime64[ns],Monthly date
+area,object,London area or borough
+average_price,int64,Average house price (£)
+code,object,ONS area code
+houses_sold,float64,Number of houses sold
+no_of_crimes,float64,Recorded crimes
+borough_flag,int64,Indicator for London borough
+cpi_index_2015_100,float64,Consumer Price Index (2015=100)
+cpi_yoy_pct,float64,Year-on-year CPI percentage change
+cpi_mom_pct,float64,Month-on-month CPI percentage change
+bank_rate_monthly_avg,float64,Bank of England average monthly interest rate
+year,int32,Year extracted from date
+month,int32,Month extracted from date
+quarter,int32,Quarter extracted from date
